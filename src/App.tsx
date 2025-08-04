@@ -5,7 +5,6 @@ import About from './components/About';
 import College from './components/College';
 import LearnRPA from './components/LearnRPA';
 import Events from './components/Events';
-import Projects from './components/Projects';
 import Community from './components/Community';
 import Team from './components/Team';
 import Footer from './components/Footer';
@@ -50,7 +49,6 @@ function App() {
         <College />
         <LearnRPA />
         <Events />
-        <Projects />
         <Community />
         <Team />
       </main>
