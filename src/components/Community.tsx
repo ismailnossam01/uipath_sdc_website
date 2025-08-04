@@ -93,9 +93,6 @@ const Community: React.FC = () => {
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
                       {social.name}
                     </h3>
-                    <div className="text-gray-600 dark:text-gray-300 font-medium">
-                      {social.members} followers
-                    </div>
                   </div>
                 </div>
               </div>
