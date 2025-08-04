@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
             {/* Image */}
             <div className="relative w-full max-w-sm lg:max-w-md animate-float">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/3/3f/UiPath_Logo.svg"
+                src="https://res.cloudinary.com/dirtmiqzt/image/upload/v1754317604/RGMCET_UiPath_SDC_20250804_195509_0000_qzl1f6.png"
                 alt="UiPath"
                 className="w-full h-auto rounded-3xl shadow-xl object-contain"
               />
