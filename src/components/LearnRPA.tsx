@@ -133,15 +133,7 @@ const LearnRPA: React.FC = () => {
               Join our community and get guidance from experienced mentors and fellow students.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://chat.whatsapp.com/EGusg4GTwGdBnMTwOy7N7p"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-green-500/30 hover:scale-105 inline-flex items-center justify-center"
-              >
-                Join WhatsApp Group
-                <ExternalLink className="w-4 h-4 ml-2" />
-              </a>
+              
               <a
                 href="#community"
                 className="backdrop-blur-md bg-gray-200/80 dark:bg-gray-700/80 hover:bg-gray-300/90 dark:hover:bg-gray-600/90 text-gray-900 dark:text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105"
