@@ -159,36 +159,6 @@ const Team: React.FC = () => {
         </div>
 
         {/* Join Team CTA */}
-        <div className="mt-16 text-center">
-          <div className="backdrop-blur-lg bg-white/70 dark:bg-gray-800/70 rounded-3xl p-8 border border-white/30 dark:border-gray-700/30 shadow-xl hover:shadow-2xl hover:shadow-orange-500/10 transition-all duration-300 max-w-4xl mx-auto">
-            <div className="flex items-center justify-center mb-4">
-              <Users className="w-8 h-8 text-orange-600 mr-3" />
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Want to Join Our Team?
-              </h3>
-            </div>
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              We're always looking for passionate students who want to make a difference in the automation community.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://chat.whatsapp.com/EGusg4GTwGdBnMTwOy7N7p"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-orange-500/30 hover:scale-105 inline-flex items-center justify-center"
-              >
-                <Award className="w-4 h-4 mr-2" />
-                Apply Now
-              </a>
-              <a
-                href="#community"
-                className="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-900 dark:text-white px-6 py-3 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
