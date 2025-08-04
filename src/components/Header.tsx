@@ -49,16 +49,17 @@ const Header: React.FC<HeaderProps> = ({ isDark, toggleTheme }) => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-              <Bot className="w-6 h-6 text-white" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-                UiPath SDC
-              </h1>
-              <p className="text-xs text-orange-600 dark:text-orange-400">RGMCET</p>
-            </div>
-          </div>
+  <img
+    src="https://res.cloudinary.com/dirtmiqzt/image/upload/v1754317604/RGMCET_UiPath_SDC_20250804_195509_0000_qzl1f6.png"
+    alt="UiPath SDC Logo"
+    className="w-10 h-10 rounded-xl object-cover"
+  />
+  <div>
+    <h1 className="text-xl font-bold text-gray-900 dark:text-white">UiPath SDC</h1>
+    <p className="text-xs text-orange-600 dark:text-orange-400">RGMCET</p>
+  </div>
+</div>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
