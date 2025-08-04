@@ -94,43 +94,7 @@ const Community: React.FC = () => {
         </div>
 
         {/* Community Guidelines */}
-        <div className="mt-16">
-          <div className="backdrop-blur-sm bg-gradient-to-br from-orange-50 to-white dark:from-gray-800 dark:to-gray-700 rounded-3xl p-8 border border-orange-100 dark:border-gray-600 shadow-xl max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-              Community Guidelines
-            </h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-4">
-                <div className="flex items-start">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span className="text-gray-600 dark:text-gray-300">Be respectful and supportive to all members</span>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span className="text-gray-600 dark:text-gray-300">Share knowledge and help others learn</span>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span className="text-gray-600 dark:text-gray-300">Keep discussions relevant to RPA and automation</span>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="flex items-start">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span className="text-gray-600 dark:text-gray-300">No spam or self-promotion without permission</span>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span className="text-gray-600 dark:text-gray-300">Celebrate achievements and milestones</span>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span className="text-gray-600 dark:text-gray-300">Ask questions and seek help when needed</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
