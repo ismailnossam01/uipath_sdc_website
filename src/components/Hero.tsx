@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
             </div>
 
             {/* Image */}
-            <div className="relative w-full max-w-sm lg:max-w-md animate-float">
+            <div className="relative w-full max-w-sm lg:max-w-md animate-float lg:pr-8">
               <img
                 src="https://res.cloudinary.com/dirtmiqzt/image/upload/v1754317604/RGMCET_UiPath_SDC_20250804_195509_0000_qzl1f6.png"
                 alt="UiPath"
