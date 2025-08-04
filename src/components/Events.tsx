@@ -140,15 +140,7 @@ const Events: React.FC = () => {
               Join our community to get notified about upcoming workshops, hackathons, and networking events.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://chat.whatsapp.com/EGusg4GTwGdBnMTwOy7N7p"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white text-orange-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center justify-center"
-              >
-                Join WhatsApp Group
-                <ExternalLink className="w-4 h-4 ml-2" />
-              </a>
+              
               <a
                 href="https://www.instagram.com/rgmcetxuipathsdc/"
                 target="_blank"
