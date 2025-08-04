@@ -24,7 +24,6 @@ const Header: React.FC<HeaderProps> = ({ isDark, toggleTheme }) => {
     { label: 'College', href: '#college' },
     { label: 'Learn RPA', href: '#learn' },
     { label: 'Events', href: '#events' },
-    { label: 'Projects', href: '#projects' },
     { label: 'Community', href: '#community' },
     { label: 'Our Team', href: '#team' },
   ];
