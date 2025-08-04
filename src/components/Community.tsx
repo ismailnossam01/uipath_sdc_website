@@ -56,11 +56,6 @@ const Community: React.FC = () => {
         {/* Community Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 max-w-4xl mx-auto">
           <div className="text-center backdrop-blur-sm bg-gradient-to-br from-orange-50 to-white dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-orange-100 dark:border-gray-600 shadow-lg">
-            <Users className="w-8 h-8 text-orange-600 mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900 dark:text-white mb-1">1000+</div>
-            <div className="text-gray-600 dark:text-gray-300 text-sm">Members</div>
-          </div>
-          <div className="text-center backdrop-blur-sm bg-gradient-to-br from-orange-50 to-white dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-orange-100 dark:border-gray-600 shadow-lg">
             <MessageCircle className="w-8 h-8 text-orange-600 mx-auto mb-2" />
             <div className="text-2xl font-bold text-gray-900 dark:text-white mb-1">24/7</div>
             <div className="text-gray-600 dark:text-gray-300 text-sm">Support</div>
@@ -69,11 +64,6 @@ const Community: React.FC = () => {
             <Heart className="w-8 h-8 text-orange-600 mx-auto mb-2" />
             <div className="text-2xl font-bold text-gray-900 dark:text-white mb-1">100%</div>
             <div className="text-gray-600 dark:text-gray-300 text-sm">Free</div>
-          </div>
-          <div className="text-center backdrop-blur-sm bg-gradient-to-br from-orange-50 to-white dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-orange-100 dark:border-gray-600 shadow-lg">
-            <Users className="w-8 h-8 text-orange-600 mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900 dark:text-white mb-1">50+</div>
-            <div className="text-gray-600 dark:text-gray-300 text-sm">Events</div>
           </div>
         </div>
 
