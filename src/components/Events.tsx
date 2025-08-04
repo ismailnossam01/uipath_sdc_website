@@ -21,7 +21,7 @@ const Events: React.FC = () => {
 
   const upcomingEvents = [
     {
-      title: 'Advanced RPA Workshop',
+      title: 'RPA Workshop',
       date: 'Coming Soon',
       description: 'Deep dive into advanced RPA concepts and enterprise-level automation.'
     },
