@@ -17,50 +17,53 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-4 py-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          {/* Left: Text */}
-          <div className="text-center lg:text-left max-w-2xl pl-4 sm:pl-8 lg:pl-12">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-              Welcome to{' '}
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
-                UiPath SDC Portal
-              </span>
-            </h1>
+          {/* Text & Image (Reordered for mobile-first) */}
+          <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-12 w-full">
+            {/* Text */}
+            <div className="text-center lg:text-left max-w-2xl pl-4 sm:pl-8 lg:pl-12">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+                Welcome to{' '}
+                <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
+                  UiPath SDC Portal
+                </span>
+              </h1>
 
-            <div className="flex items-center justify-center lg:justify-start mb-6">
-              <Rocket className="w-8 h-8 text-orange-500 mr-3 animate-bounce" />
-              <p className="text-xl md:text-2xl text-orange-600 dark:text-orange-400 font-semibold">
-                The Future of Automation Starts Here
+              <div className="flex items-center justify-center lg:justify-start mb-6">
+                <Rocket className="w-8 h-8 text-orange-500 mr-3 animate-bounce" />
+                <p className="text-xl md:text-2xl text-orange-600 dark:text-orange-400 font-semibold">
+                  The Future of Automation Starts Here
+                </p>
+              </div>
+
+              <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 leading-relaxed">
+                Discover, learn, and innovate with Robotic Process Automation. Join a student
+                community that empowers you with cutting-edge automation skills.
               </p>
+
+              {/* CTA Button */}
+              <div className="flex justify-center lg:justify-start">
+                <a
+                  href="https://academy.uipath.com/learning-plans/rpa-developer-foundation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-orange-500/25 flex items-center justify-center overflow-hidden"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <Award className="w-5 h-5 mr-2" />
+                  Start Learning RPA
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
+                </a>
+              </div>
             </div>
 
-            <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 leading-relaxed">
-              Discover, learn, and innovate with Robotic Process Automation. Join a student
-              community that empowers you with cutting-edge automation skills.
-            </p>
-
-            {/* CTA Button */}
-            <div className="flex justify-center lg:justify-start">
-              <a
-                href="https://academy.uipath.com/learning-plans/rpa-developer-foundation"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-orange-500/25 flex items-center justify-center overflow-hidden"
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <Award className="w-5 h-5 mr-2" />
-                Start Learning RPA
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
-              </a>
+            {/* Image */}
+            <div className="relative w-full max-w-sm lg:max-w-md animate-float">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3f/UiPath_Logo.svg"
+                alt="UiPath"
+                className="w-full h-auto rounded-3xl shadow-xl object-contain"
+              />
             </div>
-          </div>
-
-          {/* Right: UiPath Logo Image */}
-          <div className="relative w-full max-w-sm lg:max-w-md animate-float">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/3/3f/UiPath_Logo.svg"
-              alt="UiPath"
-              className="w-full h-auto rounded-3xl shadow-xl object-contain"
-            />
           </div>
         </div>
 
