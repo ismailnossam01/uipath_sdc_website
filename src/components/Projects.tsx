@@ -124,35 +124,7 @@ const Projects: React.FC = () => {
         </div>
 
         {/* Project Ideas */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">
-            Upcoming Project Ideas
-          </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {projectIdeas.map((project, index) => (
-              <div
-                key={index}
-                className="group backdrop-blur-sm bg-white/70 dark:bg-gray-800/70 rounded-2xl p-6 border border-white/20 dark:border-gray-700/20 shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105"
-              >
-                <div className="text-center">
-                  <div className="w-14 h-14 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-                    <project.icon className="w-7 h-7 text-white" />
-                  </div>
-                  <span className={`inline-block px-2 py-1 text-xs font-semibold rounded-full mb-3 ${getComplexityColor(project.complexity)}`}>
-                    {project.complexity}
-                  </span>
-                  <h4 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
-                    {project.title}
-                  </h4>
-                  <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                    {project.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
+        
         {/* CTA Section */}
         <div className="text-center">
           <div className="backdrop-blur-sm bg-white/70 dark:bg-gray-800/70 rounded-3xl p-8 border border-white/20 dark:border-gray-700/20 shadow-xl max-w-4xl mx-auto">
