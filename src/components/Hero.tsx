@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 py-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left: Text */}
-          <div className="text-center lg:text-left max-w-2xl">
+          <div className="text-center lg:text-left max-w-2xl pl-4 sm:pl-8 lg:pl-12">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
               Welcome to{' '}
               <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
@@ -34,7 +34,8 @@ const Hero: React.FC = () => {
             </div>
 
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 leading-relaxed">
-              Discover, learn, and innovate with Robotic Process Automation. Join a student community that empowers you with cutting-edge automation skills.
+              Discover, learn, and innovate with Robotic Process Automation. Join a student
+              community that empowers you with cutting-edge automation skills.
             </p>
 
             {/* CTA Button */}
@@ -65,12 +66,12 @@ const Hero: React.FC = () => {
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mt-16">
-          <div className="group backdrop-blur-lg bg-white/60 dark:bg-gray-800/60 rounded-2xl p-6 border border-white/30 dark:border-gray-700/30 hover:bg-white/70 dark:hover:bg-gray-800/70 hover:border-orange-300/50 dark:hover:border-orange-600/50 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-orange-500/10">
+          <div className="flex flex-col items-center text-center group backdrop-blur-lg bg-white/60 dark:bg-gray-800/60 rounded-2xl p-6 border border-white/30 dark:border-gray-700/30 hover:bg-white/70 dark:hover:bg-gray-800/70 hover:border-orange-300/50 dark:hover:border-orange-600/50 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-orange-500/10">
             <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">300+</div>
             <div className="text-gray-700 dark:text-gray-300">Active Students</div>
           </div>
 
-          <div className="group backdrop-blur-lg bg-white/60 dark:bg-gray-800/60 rounded-2xl p-6 border border-white/30 dark:border-gray-700/30 hover:bg-white/70 dark:hover:bg-gray-800/70 hover:border-orange-300/50 dark:hover:border-orange-600/50 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-orange-500/10">
+          <div className="flex flex-col items-center text-center group backdrop-blur-lg bg-white/60 dark:bg-gray-800/60 rounded-2xl p-6 border border-white/30 dark:border-gray-700/30 hover:bg-white/70 dark:hover:bg-gray-800/70 hover:border-orange-300/50 dark:hover:border-orange-600/50 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-orange-500/10">
             <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">100%</div>
             <div className="text-gray-700 dark:text-gray-300">Free Learning</div>
           </div>
