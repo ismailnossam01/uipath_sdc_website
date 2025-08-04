@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mt-16">
           <div className="flex flex-col items-center text-center group backdrop-blur-lg bg-white/60 dark:bg-gray-800/60 rounded-2xl p-6 border border-white/30 dark:border-gray-700/30 hover:bg-white/70 dark:hover:bg-gray-800/70 hover:border-orange-300/50 dark:hover:border-orange-600/50 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-orange-500/10">
-            <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">300+</div>
+            <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">100+</div>
             <div className="text-gray-700 dark:text-gray-300">Active Students</div>
           </div>
 
