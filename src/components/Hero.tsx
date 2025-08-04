@@ -1,20 +1,24 @@
 import React from 'react';
 import { ArrowRight, Rocket, Award } from 'lucide-react';
-import uipathLogo from '@/assets/uipath-logo.png'; // Make sure to place image in assets and update the path
 
 const Hero: React.FC = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-orange-50/80 via-white/90 to-orange-100/80 dark:from-gray-900/95 dark:via-gray-800/90 dark:to-gray-900/95 pt-24 sm:pt-32">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-orange-50/80 via-white/90 to-orange-100/80 dark:from-gray-900/95 dark:via-gray-800/90 dark:to-gray-900/95 pt-24 sm:pt-32"
+    >
       {/* Background Elements */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-orange-400/30 dark:bg-orange-500/20 rounded-full blur-2xl animate-float"></div>
-      <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-500/30 dark:bg-orange-400/20 rounded-full blur-2xl animate-float" style={{ animationDelay: '2s' }}></div>
+      <div
+        className="absolute bottom-20 right-10 w-40 h-40 bg-orange-500/30 dark:bg-orange-400/20 rounded-full blur-2xl animate-float"
+        style={{ animationDelay: '2s' }}
+      ></div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-orange-200/10 to-orange-300/10 dark:from-orange-800/10 dark:to-orange-900/10 rounded-full blur-3xl"></div>
 
       <div className="container mx-auto px-4 py-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left: Text */}
           <div className="text-center lg:text-left max-w-2xl">
-            {/* Headline */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
               Welcome to{' '}
               <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
@@ -22,7 +26,6 @@ const Hero: React.FC = () => {
               </span>
             </h1>
 
-            {/* Subhead */}
             <div className="flex items-center justify-center lg:justify-start mb-6">
               <Rocket className="w-8 h-8 text-orange-500 mr-3 animate-bounce" />
               <p className="text-xl md:text-2xl text-orange-600 dark:text-orange-400 font-semibold">
@@ -30,12 +33,11 @@ const Hero: React.FC = () => {
               </p>
             </div>
 
-            {/* Paragraph */}
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 leading-relaxed">
               Discover, learn, and innovate with Robotic Process Automation. Join a student community that empowers you with cutting-edge automation skills.
             </p>
 
-            {/* CTA */}
+            {/* CTA Button */}
             <div className="flex justify-center lg:justify-start">
               <a
                 href="https://academy.uipath.com/learning-plans/rpa-developer-foundation"
@@ -51,10 +53,10 @@ const Hero: React.FC = () => {
             </div>
           </div>
 
-          {/* Right: Floating UiPath Image */}
+          {/* Right: UiPath Logo Image */}
           <div className="relative w-full max-w-sm lg:max-w-md animate-float">
             <img
-              src={uipathLogo}
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3f/UiPath_Logo.svg"
               alt="UiPath"
               className="w-full h-auto rounded-3xl shadow-xl object-contain"
             />
