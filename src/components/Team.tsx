@@ -4,12 +4,12 @@ import { Users, Mail, User, GraduationCap, Award } from 'lucide-react';
 const Team: React.FC = () => {
   const teamMembers = [
     {
-      name: 'Rajesh Kumar',
-      designation: 'President',
-      department: 'Computer Science & Engineering (Data Science)',
-      regNo: '21CS1A05A1',
-      email: 'rajesh.kumar@rgmcet.edu.in',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: 'S.Md. Shahid Afrid',
+      designation: 'UiPath Student Developer Champion',
+      department: 'CSE(DS)',
+      regNo: '23091A32D4',
+      email: '23091a32d4@rgmcet.edu.in',
+      image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754360218/WhatsApp_Image_2025-08-04_at_22.54.03_fgl4pf.jpg'
     },
     {
       name: 'Priya Sharma',
