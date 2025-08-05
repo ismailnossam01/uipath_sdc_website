@@ -12,52 +12,53 @@ const Team: React.FC = () => {
       image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754360218/WhatsApp_Image_2025-08-04_at_22.54.03_fgl4pf.jpg'
     },
     {
-      name: 'Priya Sharma',
-      designation: 'Vice President',
-      department: 'Computer Science & Engineering (Data Science)',
-      regNo: '21CS1A05B2',
-      email: 'priya.sharma@rgmcet.edu.in',
-      image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: 'S. Afreen',
+      designation: 'Core Lead',
+      department: 'CSE(DS)',
+      regNo: '23091A3202',
+      email: '23091a3202@rgmcet.edu.in',
+      image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327825/WhatsApp_Image_2025-08-04_at_22.45.57_rphbi7.jpg'
     },
     {
-      name: 'Arjun Reddy',
-      designation: 'Technical Lead',
-      department: 'Computer Science & Engineering (Data Science)',
-      regNo: '21CS1A05C3',
-      email: 'arjun.reddy@rgmcet.edu.in',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: 'N. Sharukesh ',
+      designation: 'Core Lead(Designing)',
+      department: 'CSE(DS)',
+      regNo: '23091A32D8',
+      email: '23091a32d8@rgmcet.edu.in',
+      image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327825/WhatsApp_Image_2025-08-04_at_22.45.57_1_ihxy1x.jpg'
+    },
+    
+    {
+      name: 'S. Vasavi',
+      designation: 'Core Lead (Social Media & Photography)',
+      department: 'CSE(DS)',
+      regNo: '23091A32H7',
+      email: '23091a32h7@rgmcet.edu.in',
+      image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327825/WhatsApp_Image_2025-08-04_at_22.45.56_xycj7i.jpg'
     },
     {
-      name: 'Sneha Patel',
-      designation: 'Event Coordinator',
-      department: 'Computer Science & Engineering (Data Science)',
-      regNo: '21CS1A05D4',
-      email: 'sneha.patel@rgmcet.edu.in',
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: 'K.Tharakesh',
+      designation: 'Core Lead',
+      department: 'CSE(DS)',
+      regNo: '23091A32G8',
+      email: '23092a32g8@rgmcet.edu.in',
+      image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327826/WhatsApp_Image_2025-08-04_at_22.45.56_1_lv8gtv.jpg'
     },
     {
-      name: 'Vikram Singh',
-      designation: 'Project Manager',
-      department: 'Computer Science & Engineering (Data Science)',
-      regNo: '21CS1A05E5',
-      email: 'vikram.singh@rgmcet.edu.in',
-      image: 'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: 'S.Sheema Firdose ',
+      designation: 'Core Lead',
+      department: 'CSE(AI&ML)',
+      regNo: '22091A3352',
+      email: '22091a3352@rgmcet.edu.in',
+      image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754360217/WhatsApp_Image_2025-08-04_at_22.59.03_vrer79.jpg'
     },
     {
-      name: 'Ananya Gupta',
-      designation: 'Content Creator',
-      department: 'Computer Science & Engineering (Data Science)',
-      regNo: '21CS1A05F6',
-      email: 'ananya.gupta@rgmcet.edu.in',
-      image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=400'
-    },
-    {
-      name: 'Karthik Rao',
-      designation: 'Community Manager',
-      department: 'Computer Science & Engineering (Data Science)',
-      regNo: '21CS1A05G7',
-      email: 'karthik.rao@rgmcet.edu.in',
-      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: 'Ismail N',
+      designation: 'Core Lead(Technical)',
+      department: 'CSE(AI&ML)',
+      regNo: '22091A3320',
+      email: '22091a3320@rgmcet.edu.in',
+      image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327889/WhatsApp_Image_2025-08-04_at_22.47.42_klcefg.jpg'
     }
   ];
 
