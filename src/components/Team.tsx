@@ -37,7 +37,7 @@ const Team: React.FC = () => {
       regNo: '23091A32H7',
       email: '23091a32h7@rgmcet.edu.in',
       image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327825/WhatsApp_Image_2025-08-04_at_22.45.56_xycj7i.jpg',
-      linkedIn: 'https://linkedin.com/in/vasavi' // 🔁 UPDATE THIS
+      linkedIn: 'https://linkedin.com/in/vasavi-singanamalla' // 🔁 UPDATE THIS
     },
     {
       name: 'K. Tharakesh',
