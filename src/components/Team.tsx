@@ -10,7 +10,7 @@ const Team: React.FC = () => {
       regNo: '23091A32D4',
       email: '23091a32d4@rgmcet.edu.in',
       image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754360218/WhatsApp_Image_2025-08-04_at_22.54.03_fgl4pf.jpg',
-      linkedIn: 'https://linkedin.com/in/shahid-afrid' // 🔁 UPDATE THIS
+      linkedIn: 'https://www.linkedin.com/in/shaikshahidafrid/' // 🔁 UPDATE THIS
     },
     {
       name: 'S. Afreen',
@@ -19,7 +19,7 @@ const Team: React.FC = () => {
       regNo: '23091A3202',
       email: '23091a3202@rgmcet.edu.in',
       image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327825/WhatsApp_Image_2025-08-04_at_22.45.57_rphbi7.jpg',
-      linkedIn: 'https://linkedin.com/in/afreen' // 🔁 UPDATE THIS
+      linkedIn: 'https://www.linkedin.com/in/afreen-shaik-a56084303' // 🔁 UPDATE THIS
     },
     {
       name: 'N. Sharukesh',
@@ -28,7 +28,7 @@ const Team: React.FC = () => {
       regNo: '23091A32D8',
       email: '23091a32d8@rgmcet.edu.in',
       image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327825/WhatsApp_Image_2025-08-04_at_22.45.57_1_ihxy1x.jpg',
-      linkedIn: 'https://linkedin.com/in/sharukesh' // 🔁 UPDATE THIS
+      linkedIn: 'https://www.linkedin.com/in/n-sharukesh-5b890531a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' // 🔁 UPDATE THIS
     },
     {
       name: 'S. Vasavi',
@@ -46,7 +46,7 @@ const Team: React.FC = () => {
       regNo: '23091A32G8',
       email: '23092a32g8@rgmcet.edu.in',
       image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327826/WhatsApp_Image_2025-08-04_at_22.45.56_1_lv8gtv.jpg',
-      linkedIn: 'https://linkedin.com/in/tharakesh' // 🔁 UPDATE THIS
+      linkedIn: 'https://www.linkedin.com/in/tharakesh-kampamalla-259224329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' // 🔁 UPDATE THIS
     },
     {
       name: 'S. Sheema Firdose',
@@ -55,7 +55,7 @@ const Team: React.FC = () => {
       regNo: '22091A3352',
       email: '22091a3352@rgmcet.edu.in',
       image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754360217/WhatsApp_Image_2025-08-04_at_22.59.03_vrer79.jpg',
-      linkedIn: 'https://linkedin.com/in/sheema-firdose' // 🔁 UPDATE THIS
+      linkedIn: 'https://linkedin.com/in/shaik-sheema-firdose' // 🔁 UPDATE THIS
     },
     {
       name: 'Ismail N',
