@@ -18,7 +18,7 @@ const Team: React.FC = () => {
       department: 'CSE(DS)',
       regNo: '23091A3202',
       email: '23091a3202@rgmcet.edu.in',
-      image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754327825/WhatsApp_Image_2025-08-04_at_22.45.57_rphbi7.jpg',
+      image: 'https://res.cloudinary.com/dirtmiqzt/image/upload/v1754619644/WhatsApp_Image_2025-08-08_at_07.48.52_m5mxjo.jpg',
       linkedIn: 'https://www.linkedin.com/in/afreen-shaik-a56084303' // 🔁 UPDATE THIS
     },
     {
