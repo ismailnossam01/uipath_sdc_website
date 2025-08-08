@@ -35,7 +35,11 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
-                <Bot className="w-7 h-7 text-white" />
+                <img
+    src="https://res.cloudinary.com/dirtmiqzt/image/upload/v1754317604/RGMCET_UiPath_SDC_20250804_195509_0000_qzl1f6.png"
+    alt="UiPath SDC Logo"
+    className="w-10 h-10 rounded-xl object-cover"
+  />
               </div>
               <div>
                 <h3 className="text-2xl font-bold">UiPath SDC</h3>
